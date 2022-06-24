@@ -2,8 +2,10 @@ let modal = document.querySelector('.modal')
 let modalBg = document.querySelector('.modal__bg')
 let closers = document.querySelectorAll('.closer')
 let movieBg = document.querySelector('.promo__bg')
+let ratingBox = document.querySelector('.rating')
 
 function openModal (data) {
+    ratingBox.innerHTML = ''
     modal.style.display = 'flex'
     modalBg.style.display = 'block'
     setTimeout(() => {
@@ -27,6 +29,11 @@ function openModal (data) {
     releasedDate.innerHTML = `Released date: </br> ${data.Released}`
     movieDuration.innerHTML = `Duration: </br> ${data.Runtime}`
     lang.innerHTML = `Language: ${data.Language}`
+    for (let i = 1; i <= Math.round(data.imdbRating); i++) {
+        let stars = document.createElement('img')
+        stars.src = '../icons/Star.svg'
+        ratingBox.append(stars)
+    }
 }
 function closeModal (closers) {
     closers.forEach(closer => {
@@ -42,4 +49,4 @@ function closeModal (closers) {
     });
 }
 closeModal(closers)
-export {modal, modalBg, openModal, closeModal}
+export {modal, modalBg, openModal, closeModal, movieBg}

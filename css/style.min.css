@@ -129,7 +129,7 @@
     height: 360px;
     background: url("../img/mars.webp") center center/cover no-repeat;
     background-position: top;
-    padding: 107px 0 0 61px
+    padding: 107px 0 0 61px;
 }
 
 .promo__genre {
@@ -419,5 +419,15 @@
     border-right: 1px solid rgb(70, 70, 70);
     padding-right: 8%;
 }
-
+.an__bg {
+    border-radius: 10px;
+    padding: 6px;
+    width: 40%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, .2);
+}
+.rating img {
+    width: 24px;
+    height: 24px;
+}
 /*# sourceMappingURL=style.min.css.map */

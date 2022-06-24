@@ -8,7 +8,7 @@ export let movies = [
       Runtime: "121 min",
       Genre: "Action, Adventure, Comedy, Sci-Fi",
       Director: "James Gunn",
-      BgImgage: '../bcgIimgs/GOTG.jpeg',
+      BgImgage: '../bcgIimgs/GOTG.jpg',
       Writer:
         "James Gunn, Nicole Perlman, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Bill Mantlo (character created by: Rocket Raccoon), Keith Giffen (character created by: Rocket Raccoon), Jim Starlin (characters created by: Drax the Destroyer,  Gamora & Thanos), Steve Englehart (character created by: Star-Lord), Steve Gan (character created by: Star-Lord), Steve Gerber (character created by: Howard the Duck), Val Mayerik (character created by: Howard the Duck)",
       Actors: "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
@@ -45,7 +45,7 @@ export let movies = [
     },
     {
       ID: "2",
-      BgImgage: '../bcgIimgs/GOTG2.jpeg',
+      BgImgage: '../bcgIimgs/GOTG2.jpg',
       Title: "Guardians of the Galaxy Vol. 2",
       Year: "2017",
       Rated: "PG-13",
@@ -89,7 +89,7 @@ export let movies = [
     },
     {
       ID: "3",
-      BgImgage: '../bcgIimgs/TA.jpeg',
+      BgImgage: '../bcgIimgs/TA.jpg',
       Title: "The Avengers",
       Year: "2012",
       Rated: "PG-13",
@@ -132,7 +132,7 @@ export let movies = [
     },
     {
       ID: "4",
-      BgImgage: '../bcgIimgs/AAOA.jpeg',
+      BgImgage: '../bcgIimgs/AAOA.jpg',
       Title: "Avengers: Age of Ultron",
       Year: "2015",
       Rated: "PG-13",
@@ -176,7 +176,7 @@ export let movies = [
     },
     {
       ID: "5",
-      BgImgage: '../bcgIimgs/AIW.jpeg',
+      BgImgage: '../bcgIimgs/AIW.png',
       Title: "Avengers: Infinity War",
       Year: "2018",
       Rated: "PG-13",
@@ -220,7 +220,7 @@ export let movies = [
     },
     {
       ID: "6",
-      BgImgage: '../bcgIimgs/AEG.jpeg',
+      BgImgage: '../bcgIimgs/AEDG.jpg',
       Title: "Avengers: Endgame",
       Year: "2019",
       Rated: "PG-13",
@@ -252,7 +252,7 @@ export let movies = [
         },
       ],
       Metascore: "78",
-      imdbRating: "8.4",
+      imdbRating: "3",
       imdbVotes: "816,700",
       imdbID: "tt4154796",
       Type: "movie",
@@ -264,7 +264,7 @@ export let movies = [
     },
     {
       ID: "7",
-      BgImgage: '../bcgIimgs/DS.jpeg',
+      BgImgage: '../bcgIimgs/DS.jpg',
       Title: "Doctor Strange",
       Year: "2016",
       Rated: "PG-13",
@@ -309,7 +309,7 @@ export let movies = [
     },
     {
       ID: "8",
-      BgImgage: '../bcgIimgs/SMHC.jpeg',
+      BgImgage: '../bcgIimgs/SPHC.jpg',
       Title: "Spider-Man: Homecoming",
       Year: "2017",
       Rated: "PG-13",
@@ -353,7 +353,7 @@ export let movies = [
   },
   {
     ID: "9",
-    BgImgage: '../bcgIimgs/SMFFH.jpeg',
+    BgImgage: '../bcgIimgs/SMFFH.jpg',
     Title: "Spider-Man: Far from Home",
     Year: "2019",
     Rated: "PG-13",
@@ -397,7 +397,7 @@ export let movies = [
   },
   {
     ID: "10",
-    BgImgage: '../bcgIimgs/AM.jpeg',
+    BgImgage: '../bcgIimgs/AM.jpg',
     Title: "Ant-Man",
     Year: "2015",
     Rated: "PG-13",
